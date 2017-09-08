@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>API index</title>
+</head>
+<body>
+    <form action="/api/articles" method="post">
+        <label for="title">title</label>
+        <input type="text" name="title" id="title">
+        <label for="author">author</label>
+        <input type="text" name="author" id="author">
+        <label for="description">description</label>
+        <input type="text" name="description" id="description">
+        <label for="images">images</label>
+        <input type="text" name="images" id="images">
+        <button type="submit">Submit</button>
+        author='John Doe' description='lorem ipsum dolar sit amet' images:='[{"kind":"thumbnail",
+        "url":"http://habrahabr.ru/images/write-topic.png"}, {"kind":"detail",
+        "url":"http://habrahabr.ru/images/write-topic.png"}]'
+    </form>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</body>
+</html>
